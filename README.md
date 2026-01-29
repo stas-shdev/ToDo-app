@@ -48,8 +48,10 @@ root/
 1. Clone the repo  
 2. Install dependencies separately in `client/` and `server/` folders:  
    ```bash
-   cd client && npm install
-   cd ../server && npm install
+   cd client
+   npm install
+   cd ../server
+   npm install
 3. Start backend server: node server/index.js
 4. npm start --prefix client
 
@@ -57,9 +59,9 @@ The SQLite database is stored at server/db/testdb.db and is used automatically.
 
 ## Future Plans
 
-- Add CRUD for groups
+I think that I will need to improve some aspects and also add some features to my application, such as:
 
-- Enhance UI styling
+- Add CRUD for groups
 
 - Add authentication
 
@@ -69,10 +71,24 @@ The SQLite database is stored at server/db/testdb.db and is used automatically.
 
 - Adding error handling
 
+- Refactor the code little by little, add comments.
+
+- Enhance UI styling(optional, as the emphasis is on logic)
+
+
 ## Notes
 
 - This project focuses on core functionality and clean architecture
 
-- UI styling is minimal, prioritizing features
+- UI styling is not so important
 
 - Backend uses custom middleware and routing setup
+
+## Technical solutions
+
+- Instead of converting to a list, the response on the backend was compiled into a JSON file in the database.
+
+- URL conversion has been added to allow the use of "search" parameters (and in the future, "auth", "hash" and others)
+
+- SQLite3 was used as a database for learning SQL, with plans to switch to Postgres
+
