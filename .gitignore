@@ -1,0 +1,34 @@
+# ===== Node.js / Backend =====
+/server/node_modules/
+/server/dist/
+/server/.env
+/server/*.log
+
+# ===== React / Frontend =====
+/client/node_modules/
+/client/build/
+/client/.env
+/client/*.log
+
+# ===== Database =====
+# *.sqlite3 
+# *.db                       
+
+# ===== OS / Misc =====
+.DS_Store
+Thumbs.db
+*.tmp 
+
+# ===== IDE / Editor =====
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ===== Logs =====
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ===== Optional =====
+/coverage/

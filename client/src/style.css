@@ -1,0 +1,53 @@
+html{
+  --main-text-style: center;
+  --main-dark-color: rgb(17, 17, 17);
+  --main-bright-color: rgb(255, 255, 255);
+  font-family: "Lato";
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*{
+  background-color: var(--main-dark-color);
+  color: var(--main-bright-color);
+}
+#root {
+  display: flex;
+  justify-content: center;
+}
+
+.App {
+  width: 800px;
+}
+
+.postItem {
+  /* border: 4px solid rgb(44, 44, 44); */
+  border: 4px solid var(--main-bright-color);
+  border-radius: 4px;
+  margin: 10px 0;
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  min-width: 100%;
+  overflow-wrap: break-word;
+}
+.post-Content{
+  overflow: hidden;
+}
+.NameOfPostList{
+  text-align: var(--main-text-style);
+}
+.PostForm {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+
+  /* border: 4px solid var(--main-parts-color); */
+  /* margin: 10px 0; */
+}
+
