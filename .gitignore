@@ -3,12 +3,14 @@
 /server/dist/
 /server/.env
 /server/*.log
+/server/package-lock.json
 
 # ===== React / Frontend =====
 /client/node_modules/
 /client/build/
 /client/.env
 /client/*.log
+/client/package-lock.json
 
 # ===== Database =====
 # *.sqlite3 
