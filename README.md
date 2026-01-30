@@ -24,6 +24,7 @@ The app allows creating and managing posts organized in groups, with features li
 
 ## Project Structure
 
+```text
 root/
 ├── client/ # React frontend
 │ ├── src/ # React components and styles
